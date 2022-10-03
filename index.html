@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectorsHW5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="caption">Якими бувають селектори</h1>
+    </header>
+    <main>
+        <ul>
+            <li class="li-frst"><span class="title">Елемент</span> - селектор, що має вагу 1, для стилізації використовується саме назва елементу, без інших знаків чи символів.</li>
+            <li><span class="title">Клас</span> - селектор, що має вагу 10, для стилізації використовуюється назва класу, перед яким ставиться крапка.</li>
+            <li><span class="title">Ідентифікатор</span> - селектор, що має вагу 100, для стилізації використовується назва ідентифікатору, перед яким ставиться решітка.</li>
+            <li><span class="title">Зірочка '*'</span> - селектор, що приміняється до всіх елементів на сторінці.</li>
+            <li><span class="title">Селектор за атрибутом</span> - для стилізації в квадратних 
+                скобках пишеться назва атрибуту та його значення. Також вживається разом з елементом, чий цей атрибут, для уточнення. 
+                Чи для стилізації за частиною слова в значенні атрибуту.</li>
+            <li><span class="title">Селектор нащадків</span> - стилізує нащадків, які знаходяться у батьківському контейнері.</li>
+            <li><span class="title">Селектор дочірніх елементів</span> - стилізує нащадки, першого рівня вкладеності, що знаходяться у батьківському контейнері</li>
+            <li><span class="title title-last">Селектори сестринських/одного рівня/суміжних/siblings елментів</span> - за допомогою '+' стилізує наступний вказаний на одному рівні. 
+                За допомогою '~' стилізує всі наступні вказані на одному рівні.</li>
+        </ul>
+        <div class="outer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sequi.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+             <div class="inner">
+                <p>Lorem ipsum dolor sit amet.</p>
+             </div>
+            <input type="text" placeholder="Default">
+            <input type="text" placeholder="Aquamarine">
+        </div>
+    </main>
+    <footer>
+        <h3>Тут має бути футер</h3>
+    </footer>
+</body>
+</html>
